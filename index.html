@@ -9,21 +9,30 @@
     <body>
       <script src="index.js"></script>
         <div id="app">
-          aaaaa
+          
             <div id="app"><div class="calculator">
-                <h1 id="total">0</h1>
+                <h1 id="total">2</h1>
                 <div class="digits flex">
-                      <button class="digit">9</button><button class="digit">8</button><button class="digit">7</button><button class="digit">6</button><button class="digit">5</button><button class="digit">4</button><button class="digit">3</button><button class="digit">2</button><button class="digit">1</button><button class="digit">0</button>
+                      <button class="digit" onclick="num()">9</button>
+                      <button class="digit" onclick="num()">8</button>
+                      <button class="digit" onclick="num()">7</button>
+                      <button class="digit" onclick="num()">6</button>
+                      <button class="digit" onclick="num()">5</button>
+                      <button class="digit" onclick="num()">4</button>
+                      <button class="digit" onclick="num()">3</button>
+                      <button class="digit" onclick="num()">2</button>
+                      <button class="digit" onclick="num()">1</button>
+                      <button class="digit" onclick="num()">0</button>
                 </div>
                 <div class="modifiers subgrid">
-                  <button class="modifier">AC</button>
+                  <button class="modifier" onclick="Ac()">AC</button>
                 </div>
                 <div class="operations subgrid">
                   <button class="operation">/</button>
                   <button class="operation">X</button>
                   <button class="operation">-</button>
-                  <button class="operation" onclick="button1_click()">+</button>
-                  <button class="operation">=</button>
+                  <button class="operation">+</button>
+                  <button class="operation" onclick="equals_sign()">=</button>
                 </div>
               </div>
               </div>
